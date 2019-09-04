@@ -1,0 +1,155 @@
+﻿@charset "utf-8";
+
+/*----全体のレイアウト----*/
+*{
+ font-style: normal;
+ margin: 0px;
+ padding: 0px;
+}
+body
+{
+ color: #333333;
+ background: linear-gradient(#05FBFF, #1E00FF);
+ background-repeat: repeat;
+ background-image: url(image/sizen2.jpg);
+ font-family: sans-serif;
+ font-size: 90%;
+ line-height: 2;
+}
+ hr
+{
+ /*display: none;*/
+}
+
+
+/*----中枠のレイアウト----*/
+#wrapper
+{
+ height: 1880px;
+ width: 928px;
+ background-image: linear-gradient(-90deg, #F4F8D8, #F8F0D8);
+ background-repeat: none;
+ margin: 0px auto;
+ border-right: 11px solid #9acd32;
+ border-left: 11px solid #9acd32;
+}
+
+/*----先頭のスタイル----*/
+#header
+{
+ background-color: #ffffff;
+ height: 255px;
+ border-top: 4px solid #9acd32;
+ border-bottom: 4px solid #9acd32;
+ position: relative;
+}
+
+/*----真ん中の文のスタイル----*/
+#main
+{
+ position: absolute;
+ width: 600px;
+ top: 260px;
+ left: 330px;
+ height: 1300px;
+}
+#main img
+{
+ margin-right: 15px;
+ }
+ 
+/*----サイドメニューバーのスタイル----*/
+#sidebar
+{
+ float: left;
+ width: 110;
+ position: relative;
+ /*left: 0px;
+ top: 200px;*/
+ background-color: #add8e6;
+ border-bottom: 4px solid #9acd32;
+ border-right: 4px solid #9acd32;
+}
+
+/*
+#sidebar h2
+{
+ width: 110;
+ position: center;
+ left: 0px;
+ top: 200px;
+ background-color: none;
+}
+*/
+
+#sidebar ul li
+{
+ list-style: none;
+ float: left;
+}
+
+#sidebar ul li a
+{
+ padding: 5px;
+ float: left;
+ margin-right: 10px;
+ margin-bottom: 10px;
+ color: #ffffff;
+ text-decoration: none;
+ line-height: 1.5em;
+ height: 1.5em;
+ width: 110px;
+ 
+ /*display: block;*/
+ /*text-align: left;*/
+ background-color: #48d1cc;
+ border-top: 3px solid #48d1aa;
+ border-bottom: 3px double #48d1aa;
+ /*border-left: 2px solid #FFFFFF;*/
+ border-right: 2px solid #48d1aa;
+}
+
+#sidebar ul li a:hover
+{
+ /*order-color: #f0ffff;*/
+ border: 1px solid #f0ffff;
+ border-left: none;
+}
+
+#sidebar ul li
+{
+ clear: both;
+ /*margin-bottom: 10px;*/
+}
+
+/*----footer styles----*/
+#footer
+{
+ position: absolute;
+ top: 1818px;
+ float: left;
+ width: 928px;
+ background-color: rgba(290,298,270,0.7);
+ border-bottom: 4px solid  #9acd32;
+
+}
+
+#footer ul li
+{ 
+ list-style: none;
+ margin-right: 15px;
+ display: inline;
+ margin-left: 15px;
+ }
+ 
+#footer p
+{
+ margin: 0px;
+ float: right;
+ font-size: 20px;
+ margin-right: 15px;
+}
+#footer h4
+{
+ margin-left: 15px;
+}
