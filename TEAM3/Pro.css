@@ -120,8 +120,9 @@ hr
 #sidebar ul li a:hover
 {
 	/*order-color: #f0ffff;*/
-	border: 1px solid #f0ffff;
-	border-left: none;
+	border-top: 3px solid #f0ffff;
+	border-bottom: 3px solid #f0ffff;
+	border-right: 2px solid #f0ffff;
 }
 
 #sidebar ul li

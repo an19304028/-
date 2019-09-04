@@ -1,31 +1,35 @@
-﻿@charset "utf-8";
+@charset "utf-8";
 
 /*----全体のレイアウト----*/
 *{
  font-style: normal;
  margin: 0px;
  padding: 0px;
+    
 }
+
+
 body
 {
+ /*height: 1500px;*/
  color: #333333;
- background: linear-gradient(#05FBFF, #1E00FF);
- background-repeat: repeat;
- background-image: url(image/sizen2.jpg);
+    background:  #dcdcdc;
+ /*background: linear-gradient(#05FBFF, #1E00FF);*/
+ /*background-image: url(image/bian.jpg);
+ background-repeat:repeat;*/
  font-family: sans-serif;
  font-size: 90%;
  line-height: 2;
 }
- hr
+hr
 {
  /*display: none;*/
 }
 
-
 /*----中枠のレイアウト----*/
 #wrapper
 {
- height: 1880px;
+ /*height: 1000px;*/
  width: 928px;
  background-image: linear-gradient(-90deg, #F4F8D8, #F8F0D8);
  background-repeat: none;
@@ -45,42 +49,65 @@ body
 }
 
 /*----真ん中の文のスタイル----*/
-#main
+#main p
 {
- position: absolute;
- width: 600px;
- top: 260px;
- left: 330px;
- height: 1300px;
+	margin-left: 160px;
 }
-#main img
+#main ia 
 {
- margin-right: 15px;
- }
- 
+	float: right;
+	margin-right: 10px;
+	/*border-style: solid;
+	border-color: #008000;*/
+}
+
+
+#stand dl dt a
+{
+	padding:5px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom:10px
+	border: 1px solid #cccccc;
+}
+
+#stand dl dt
+{
+	clear:both;
+}
+
+#stand dl dd
+{
+	margin-bottom: 10px;
+}
+#stand b p
+{
+	float: right;
+	margin-right: 70px;
+}
+
+
+
 /*----サイドメニューバーのスタイル----*/
 #sidebar
 {
  float: left;
  width: 110;
- position: relative;
- /*left: 0px;
- top: 200px;*/
- background-color: #add8e6;
+ /*position: relative;*/
+ background-color: #b0c4de;
  border-bottom: 4px solid #9acd32;
  border-right: 4px solid #9acd32;
 }
 
-/*
 #sidebar h2
 {
+ margin-left: 18px;
  width: 110;
- position: center;
  left: 0px;
  top: 200px;
  background-color: none;
+ /*border-bottom: 2px solid #2f4f4f;*/
 }
-*/
 
 #sidebar ul li
 {
@@ -99,21 +126,21 @@ body
  line-height: 1.5em;
  height: 1.5em;
  width: 110px;
- 
  /*display: block;*/
  /*text-align: left;*/
- background-color: #48d1cc;
- border-top: 3px solid #48d1aa;
- border-bottom: 3px double #48d1aa;
+ background-color: #4682b4;
+ border-top: 3px solid #4682d4;
+ border-bottom: 3px double #4682f4;
  /*border-left: 2px solid #FFFFFF;*/
- border-right: 2px solid #48d1aa;
+ border-right: 2px solid #4682f4;
 }
 
 #sidebar ul li a:hover
 {
- /*order-color: #f0ffff;*/
- border: 1px solid #f0ffff;
- border-left: none;
+	/*order-color: #f0ffff;*/
+	border-top: 3px solid #f0ffff;
+	border-bottom: 3px solid #f0ffff;
+	border-right: 2px solid #f0ffff;
 }
 
 #sidebar ul li
@@ -125,31 +152,60 @@ body
 /*----footer styles----*/
 #footer
 {
- position: absolute;
- top: 1818px;
- float: left;
+ /*top: 520px;*/
  width: 928px;
- background-color: rgba(290,298,270,0.7);
- border-bottom: 4px solid  #9acd32;
-
+ color: #ffffff;
+ position: footer;
+ background-color: #888888;
+ border-top: 1px solid #9acd32;
+ border-bottom: 4px solid #9acd32;
 }
 
 #footer ul li
-{ 
+{
+ color: #4169e1;
  list-style: none;
- margin-right: 15px;
+ margin-right: 15p;
  display: inline;
  margin-left: 15px;
- }
- 
+}
+
 #footer p
 {
+ color: #4169e1;
  margin: 0px;
  float: right;
  font-size: 20px;
  margin-right: 15px;
 }
+
+#footer p a
+{
+/*font-size:50%;*/
+ color: #0000ff;
+ text-decoration: underline;
+}
+
 #footer h4
 {
  margin-left: 15px;
+    color: #800080;
+    text-decoration: underline;
+}
+
+#footer ul li a
+{
+ color: #0000ff;
+ text-decoration: underline;
+}
+
+
+@media (max-width: 599px)
+{
+   div#sidebar { width: 100%; }
+}
+
+@media (min-width: 600px) and (max-width: 959px)
+{
+   div#sidebar { width: 160px; }
 }

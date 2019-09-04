@@ -177,8 +177,9 @@ hr
 #sidebar ul li a:hover
 {
 	/*order-color: #f0ffff;*/
-	border: 1px solid #f0ffff;
-	border-left: none;
+	border-top: 3px solid #f0ffff;
+	border-bottom: 3px solid #f0ffff;
+	border-right: 2px solid #f0ffff;
 }
 
 #sidebar ul li
@@ -186,42 +187,43 @@ hr
 	clear: both;
 	/*margin-bottom: 10px;*/
 
-
+}
+/*
 ul.pulldown_menu_3 {
-list-style: none; /* 先頭記号を消す */
+list-style: none; //先頭記号を消す
 }
 ul.pulldown_menu_3 li {
-position: relative; /* 2段目の位置を指定するため */
-width: 100px; /* リスト項目の幅 */
+position: relative; //2段目の位置を指定するため
+width: 100px;  //リスト項目の幅
 }
 ul.pulldown_menu_3 ul {
-position: absolute; /* 2段目の位置を絶対位置で指定 */
-left: 100px; /* 1段目の幅の分を右へ */
-top: 0px; /* 1段目の上下方向は同じ位置 */
-list-style: none; /* 2段目の先頭記号を消す */
-padding-left: 0px; /* 2段目の左位置を1段目に揃える */
+position: absolute; //2段目の位置を絶対位置で指定
+left: 100px; //1段目の幅の分を右へ
+top: 0px; //1段目の上下方向は同じ位置
+list-style: none; /* 2段目の先頭記号を消す
+padding-left: 0px; /* 2段目の左位置を1段目に揃える
 }
 ul.pulldown_menu_3 a {
-color: white; /* 文字色 */
-display: block; /* ブロックレベルに */
-text-align: center; /* 文字を中央合わせに */
-padding: 5px; /* 内部の余白 */
-border: 1px #9999FF solid; /* 枠線 */
-text-decoration: none; /* 下線を消す */
-outline: none; /* 選択時の点線枠線を消す */
-background: url(image/gradation_green.bmp); /* 通常の背景画像 */
-height: 16px; /* 高さの調整 */
+color: white; /* 文字色
+display: block; /* ブロックレベルに
+text-align: center; /* 文字を中央合わせに
+padding: 5px; /* 内部の余白
+border: 1px #9999FF solid; /* 枠線
+text-decoration: none; /* 下線を消す
+outline: none; /* 選択時の点線枠線を消
+background: url(image/gradation_green.bmp); /* 通常の背景画像
+height: 16px; /* 高さの調整
 }
 ul.pulldown_menu_3 ul a {
-background: url(image/gradation_green2.jpg); /* ２段目以降の背景画像 */
+background: url(image/gradation_green2.jpg); /* ２段目以降の背景画像
 }
-ul.pulldown_menu_3 a:hover {/* マウスカーソルが乗っている状態 */
-background: url(image/gradation_green_R.bmp); /* 通常とは違う背景画像 */
-color: blue; /* 文字色 */
+ul.pulldown_menu_3 a:hover {/* マウスカーソルが乗っている状態
+background: url(image/gradation_green_R.bmp); /* 通常とは違う背景画像
+color: blue; /* 文字色
 }
-ul.pulldown_menu_3 a:active {/* マウスがクリックされている状態 */
-background: url(image/gradation_green_R.bmp); /* 通常とは違う背景画像 */
-color: red; /* 文字色 */
+ul.pulldown_menu_3 a:active {/* マウスがクリックされている状態
+background: url(image/gradation_green_R.bmp); /* 通常とは違う背景画像
+color: red; /* 文字色
 }
 
 /*----footer styles----*/

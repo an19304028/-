@@ -1,11 +1,13 @@
-﻿@charset "utf-8";
+@charset "utf-8";
 
 /*----全体のレイアウト----*/
 *{
  font-style: normal;
  margin: 0px;
  padding: 0px;
+    
 }
+
 
 body
 {
@@ -32,8 +34,8 @@ hr
  background-image: linear-gradient(-90deg, #F4F8D8, #F8F0D8);
  background-repeat: none;
  margin: 0px auto;
- border-right: 11px solid #bb0000;
- border-left: 11px solid #bb0000;
+ border-right: 11px solid #ba55d3;
+ border-left: 11px solid #ba55d3;
 }
 
 /*----先頭のスタイル----*/
@@ -41,8 +43,8 @@ hr
 {
  background-color: #ffffff;
  height: 255px;
- border-top: 4px solid #bb0000;
- border-bottom: 4px solid #bb0000;
+ border-top: 4px solid #ba55d3;
+ border-bottom: 4px solid #ba55d3;
  position: relative;
 }
 
@@ -76,7 +78,7 @@ hr
 
 #stand dl dd
 {
-	margin-bottomm: 10px;
+	margin-bottom: 10px;
 }
 #stand b p
 {
@@ -93,8 +95,8 @@ hr
  width: 110;
  /*position: relative;*/
  background-color: #b0c4de;
- border-bottom: 4px solid #bb0000;
- border-right: 4px solid #bb0000;
+ border-bottom: 4px solid #ba55d3;
+ border-right: 4px solid #ba55d3;
 }
 
 #sidebar h2
@@ -135,9 +137,10 @@ hr
 
 #sidebar ul li a:hover
 {
- /*order-color: #f0ffff;*/
- border: 1px solid #f0ffff;
- border-left: none;
+	/*order-color: #f0ffff;*/
+	border-top: 3px solid #f0ffff;
+	border-bottom: 3px solid #f0ffff;
+	border-right: 2px solid #f0ffff;
 }
 
 #sidebar ul li
@@ -154,8 +157,8 @@ hr
  color: #ffffff;
  position: footer;
  background-color: #888888;
- border-top: 1px solid #bb0000;
- border-bottom: 4px solid #bb0000;
+ border-top: 1px solid #ba55d3;
+ border-bottom: 4px solid #ba55d3;
 }
 
 #footer ul li
