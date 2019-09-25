@@ -11,7 +11,7 @@ body
 {
  /*height: 1500px;*/
  color: #333333;
-    background:  #dcdcdc;
+    background:  #87cefa;
  /*background: linear-gradient(#05FBFF, #1E00FF);*/
  /*background-image: url(image/bian.jpg);
  background-repeat:repeat;*/
@@ -46,12 +46,16 @@ hr
  position: relative;
 }
 
+#header h1
+{
+  padding-left: 185px;
+}
 /*----真ん中の文のスタイル----*/
 #main p
 {
 	margin-left: 160px;
 }
-#main ia 
+#main ia
 {
 	float: right;
 	margin-right: 10px;
@@ -154,7 +158,7 @@ hr
  width: 928px;
  color: #ffffff;
  position: footer;
- background-color: #888888;
+ background-color: #ffffff;
  border-top: 1px solid #bb0000;
  border-bottom: 4px solid #bb0000;
 }
@@ -193,7 +197,7 @@ hr
 
 #footer ul li a
 {
- color: #0000ff;
+ color: #4169e1;
  text-decoration: underline;
 }
 

@@ -44,6 +44,10 @@ body
  position: relative;
 }
 
+#header h1
+{
+  padding-left: 185px;
+}
 /*----真ん中の文のスタイル----*/
 #main
 {
@@ -57,7 +61,7 @@ body
 {
  margin-right: 15px;
  }
- 
+
 /*----サイドメニューバーのスタイル----*/
 #sidebar
 {
@@ -99,7 +103,7 @@ body
  line-height: 1.5em;
  height: 1.5em;
  width: 110px;
- 
+
  /*display: block;*/
  /*text-align: left;*/
  background-color: #48d1cc;
@@ -136,13 +140,13 @@ body
 }
 
 #footer ul li
-{ 
+{
  list-style: none;
  margin-right: 15px;
  display: inline;
  margin-left: 15px;
  }
- 
+
 #footer p
 {
  margin: 0px;
