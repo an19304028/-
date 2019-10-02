@@ -1,0 +1,215 @@
+@charset "utf-8";
+
+/*----全体のレイアウト----*/
+*{
+ font-style: normal;
+ margin: 0px;
+ padding: 0px;
+
+}
+
+
+body
+{
+ /*height: 1500px;*/
+ color: #333333;
+    background:  #87cefa;
+ /*background: linear-gradient(#05FBFF, #1E00FF);*/
+ /*background-image: url(image/bian.jpg);
+ background-repeat:repeat;*/
+ font-family: sans-serif;
+ font-size: 90%;
+ line-height: 2;
+}
+hr
+{
+ /*display: none;*/
+}
+
+/*----中枠のレイアウト----*/
+#wrapper
+{
+ /*height: 1000px;*/
+ width: 928px;
+ background-image: linear-gradient(-90deg, #F4F8D8, #F8F0D8);
+ background-repeat: none;
+ margin: 0px auto;
+ border-right: 11px solid #ba55d3;
+ border-left: 11px solid #ba55d3;
+}
+
+/*----先頭のスタイル----*/
+#header
+{
+ background-color: #ffffff;
+ height: 255px;
+ border-top: 4px solid #ba55d3;
+ border-bottom: 4px solid #ba55d3;
+ position: relative;
+}
+
+#header h1
+{
+  padding-left: 185px;
+}
+/*----真ん中の文のスタイル----*/
+#main p
+{
+	margin-left: 160px;
+}
+#main ia
+{
+	float: right;
+	margin-right: 10px;
+	/*border-style: solid;
+	border-color: #008000;*/
+}
+
+
+#stand dl dt a
+{
+	padding:5px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom:10px
+	border: 1px solid #cccccc;
+}
+
+#stand dl dt
+{
+	clear:both;
+}
+
+#stand dl dd
+{
+	margin-bottom: 10px;
+}
+#stand b p
+{
+	float: right;
+	margin-right: 70px;
+}
+
+
+
+/*----サイドメニューバーのスタイル----*/
+#sidebar
+{
+ float: left;
+ width: 110;
+ /*position: relative;*/
+ background-color: #b0c4de;
+ border-bottom: 4px solid #ba55d3;
+ border-right: 4px solid #ba55d3;
+}
+
+#sidebar h2
+{
+ margin-left: 18px;
+ width: 110;
+ left: 0px;
+ top: 200px;
+ background-color: none;
+ /*border-bottom: 2px solid #2f4f4f;*/
+}
+
+#sidebar ul li
+{
+ list-style: none;
+ float: left;
+}
+
+#sidebar ul li a
+{
+ padding: 5px;
+ float: left;
+ margin-right: 10px;
+ margin-bottom: 10px;
+ color: #ffffff;
+ text-decoration: none;
+ line-height: 1.5em;
+ height: 1.5em;
+ width: 110px;
+ /*display: block;*/
+ /*text-align: left;*/
+ background-color: #4682b4;
+ border-top: 3px solid #4682d4;
+ border-bottom: 3px double #4682f4;
+ /*border-left: 2px solid #FFFFFF;*/
+ border-right: 2px solid #4682f4;
+}
+
+#sidebar ul li a:hover
+{
+	/*order-color: #f0ffff;*/
+	border-top: 3px solid #f0ffff;
+	border-bottom: 3px solid #f0ffff;
+	border-right: 2px solid #f0ffff;
+}
+
+#sidebar ul li
+{
+ clear: both;
+ /*margin-bottom: 10px;*/
+}
+
+/*----footer styles----*/
+#footer
+{
+ /*top: 520px;*/
+ width: 928px;
+ color: #ffffff;
+ position: footer;
+ background-color: #ffffff;
+ border-top: 1px solid #ba55d3;
+ border-bottom: 4px solid #ba55d3;
+}
+
+#footer ul li
+{
+ color: #4169e1;
+ list-style: none;
+ margin-right: 15p;
+ display: inline;
+ margin-left: 15px;
+}
+
+#footer p
+{
+ color: #4169e1;
+ margin: 0px;
+ float: right;
+ font-size: 20px;
+ margin-right: 15px;
+}
+
+#footer p a
+{
+/*font-size:50%;*/
+ color: #0000ff;
+ text-decoration: underline;
+}
+
+#footer h4
+{
+ margin-left: 15px;
+    color: #800080;
+   
+}
+
+#footer ul li a
+{
+ color: #0000ff;
+ text-decoration: underline;
+}
+
+
+@media (max-width: 599px)
+{
+   div#sidebar { width: 100%; }
+}
+
+@media (min-width: 600px) and (max-width: 959px)
+{
+   div#sidebar { width: 160px; }
+}
